@@ -1,0 +1,52 @@
+@media screen and (max-width: 1024px) {
+    .hero_left {
+        font-size: 22px;
+    }
+    .hero_heading {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero_right {
+        flex-direction: column; 
+        gap: 10px;
+    }
+    .hero_left {
+        font-size: 18px;
+    }
+    .hero_heading {
+        font-size: 22px;
+    }
+    .hero_left button.bth_Clicked {
+        margin-left: 0;
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero_left {
+        font-size: 16px;
+    }
+    .hero_heading {
+        font-size: 20px;
+    }
+    .hero_left button.bth_Clicked {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero_main .unOrder_lists li {
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero_main .unOrder_lists li {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+}

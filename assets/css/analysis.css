@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    .hero-para {
+        width: 80%;
+        padding: 15px;
+        margin: 30px auto;
+    }
+
+    .hero-para .inter p {
+        font-size: 15px;
+    }
+
+    .hero-para .inter img {
+        width: 180px;
+    }
+
+    .Categorized {
+        padding: 10px 16px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-para {
+        width: 95%;
+        padding: 10px;
+        margin: 20px auto;
+    }
+
+    .hero-para .inter p {
+        font-size: 14px;
+    }
+
+    .hero-para .inter img {
+        width: 150px;
+    }
+
+    .Categorized {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+}

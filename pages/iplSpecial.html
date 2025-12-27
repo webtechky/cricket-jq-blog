@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Special</title>
+    <script src="../data/JQuery-Lib/jquery-3.7.1.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .highlight {
+            background-color: yellow;
+            font-style: italic;
+        }
+
+        .team_card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px auto;
+            width: 70%;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            transition: padding 0.3s;
+        }
+
+        .team_name {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .team_caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 5px;
+            color: #555;
+        }
+
+        .hero_para {
+            cursor: pointer;
+        }
+
+        .hero_img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            cursor: pointer;
+        }
+
+        #teamSearch {
+            display: block;
+            margin: 20px auto;
+            padding: 8px;
+            width: 50%;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>IPL Special</h1>
+    <div class="hero_special"></div>
+    <input type="text" id="teamSearch" placeholder="Search Teams...">
+    <div class="hero_teams"></div>
+
+    <script src="../assets/js/iplSpecial.js">
+    </script>
+</body>
+
+</html>

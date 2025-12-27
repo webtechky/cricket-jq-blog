@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+    h1 {
+      font-size: 26px;
+    }
+  
+    .news_main {
+      padding: 10px;
+    }
+  
+    .news_Items h2 {
+      font-size: 20px;
+    }
+  
+    .news_Items h5 {
+      font-size: 15px;
+    }
+  }
+
+
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 22px;
+    }
+  
+    .news_Items {
+      padding: 12px;
+    }
+  
+    .news_Items h2 {
+      font-size: 18px;
+    }
+  
+    .news_Items h5 {
+      font-size: 14px;
+    }
+  
+    .news_Items p {
+      font-size: 13px;
+    }
+  }
